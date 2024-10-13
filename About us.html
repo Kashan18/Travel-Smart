@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Smart</title>
+    <link rel="shortcut icon" href="src/images/logo1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/index.css">
+    <script src="assets/index.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        /* * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        :root {
+            --primary-color: #f9b008;
+        }
+
+        h2 {
+            font-size: 3cqmax;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 4cqmax;
+        } */
+
+        /* Count  */
+        .count .box {
+            width: 200px;
+            margin: 0px auto 0px auto;
+            background-color: #ffffff;
+            border: 1px solid #0190f6;
+            height: 250px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .count img {
+            margin-bottom: 15px;
+            transition: 0.5s;
+        }
+
+        .count img:hover {
+            transform: rotateY(180deg);
+        }
+
+        /* Header Section  */
+        .headerdiv {
+            width: 100%;
+            height: 450px;
+            background-color: rgb(34, 34, 34);
+            background: url(src/images/imgheader.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Choose us Section  */
+        .choose .circle-div {
+            float: left;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 0px rgb(247, 247, 247);
+        }
+
+        @media screen and (max-width: 480px) {
+            .choose .circle-div {
+                float: none;
+                margin-bottom: 20px;
+                /* margin-left: auto; */
+                /* background-color: blue; */
+            }
+        }
+
+        
+/* Footer Styling  */
+     /* FOOTER CSS  */
+
+     .footer-links{
+            color: #0190f6;
+        }
+        
+        .footer-hover{
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .footer-hover:hover{
+            color: #0190f6;
+            transform: translateY(-3px);
+            transition: transform 0.3s ease-in-out;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+   <!-- Navbar  -->
+ <header class="header ">
+    <div  class="container-NAV">
+      <div  class="header-main">
+        <div class="logo">
+          <a href="index.html">
+            <img style="width: 30%;" src="src/images/logo1.png" alt="">
+          </a>
+        </div>
+        <div class="open-nav-menu">
+          <span></span>
+        </div>
+        <div class="menu-overlay"></div>
+        <nav class="nav-menu">
+          <div class="close-nav-menu">
+            <img src="src/icons (svg)/close.svg" alt="close" />
+          </div>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="About us.html">About</a>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#" data-toggle="sub-menu"
+                >Tour <i class="plus"></i
+              ></a>
+              <ul class="sub-menu">
+                <li class="menu-item"><a href="trip.html">Book Your Trip</a></li>
+                <li class="menu-item"><a href="Activity.html">Activities</a></li>
+                <li class="menu-item"><a href="accomodation.html">Accomodation</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="menu-item">
+              <a href="tour-review.html">Tour Review</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+    <!-- Header Section  -->
+    <div class="headerdiv d-flex justify-content-center align-items-center mt-5">
+
+        <div>
+            <h1 class="fw-bold text-white">About Us</h1>
+
+           <div class="d-flex justify-content-center">
+            <nav class="text-center" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                     <li class="breadcrumb-item "><a class="text-white" href="index.html">Home</a></li>
+                    <li style="color: lightgray;" class="breadcrumb-item active" aria-current="page">About us</li>
+                </ol>
+            </nav>
+           </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Who we are  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-10 col-11">
+                <h2 class="subhaedingh2" style="position: relative; top: 74px;">Who We <br>
+                    Are?</h2>
+                <img style="object-fit: cover;" class="w-100" src="src/images/imgsection8.png" alt="">
+            </div>
+            <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-10 col-11 d-flex align-items-center">
+                <div>
+                    <h3 class="fw-bold">What We Stand For</h3>
+                    <p>At Travel Smart, we are passionate about making your travel experiences unforgettable. Our
+                        journey started with a love for exploration and a mission to help others discover the worlds
+                        beauty.</p>
+                    <p>Whether its family camping, luxury cabins, or a simple getaway, we offer personalized plans to
+                        suit your needs. With excellent customer support, we ensure a smooth journey from planning to
+                        your return, guided by our values of trust, transparency, and a passion for travel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why choose us  -->
+    <div class="container choose">
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-11 col-md-10 col-sm-11 col-lg-6 col-xl-6">
+                <h5 style="color: var(--primary-color); font-family: 'Dancing Script', cursive;" class="fw-bold">Explore
+                    the World
+                </h5>
+                <h2 class="fw-bold my-4 subhaedingh2 ">Why you Choose us for adventure & travelling</h2>
+                <p class="mb-4">The site is easy to use, visually appealing, and the booking process was smooth. I found
+                    great travel
+                    options and excellent customer support. Highly recommend!</p>
+
+
+                <div>
+                    <div class="row mb-3">
+
+                        <div class="col ">
+                            <div class="circle-div"
+                                style="background-image: url(src/images/travelPlan.png); background-size: 50px; background-repeat: no-repeat; background-position: center;">
+                            </div>
+
+                            <div>
+                                <h5 class="px-3">Tailored Itineraries</h5>
+                                <p class="px-3">Personalized travel plans based on your interests and preferences.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="circle-div"
+                                style=" background-image: url(src/images/travelGuide.png); background-size: 50px; background-repeat: no-repeat; background-position: center;">
+                            </div>
+                            <div>
+                                <h5 class="px-3">Expert Travel Advice</h5>
+                                <p class="px-3">Guides and tips from seasoned travelers to make your trip smooth and
+                                    enjoyable.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- --------------- -->
+                    <div class="row ">
+
+                        <div class="col ">
+                            <div class=" circle-div"
+                                style="background-image: url(src/images/booking.png); background-size: 50px; background-repeat: no-repeat; background-position: center; ">
+                            </div>
+
+                            <div>
+                                <h5 class="px-3">All-in-One Booking</h5>
+                                <p class="px-3">Flights, hotels, car rentals, and activities all in one place, with
+                                    seamless integration to make planning easier.</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class=" circle-div"
+                                style=" background-image: url(src/images/update.png); background-size: 50px; background-repeat: no-repeat; background-position: center; ">
+                            </div>
+                            <div>
+                                <h5 class="px-3">Real-Time Updates</h5>
+                                <p class="px-3">Stay updated with the latest deals, alerts, and travel advisories to
+                                    ensure a hassle-free journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11  col-md-10 col-sm-11 col-lg-6 col-xl-6">
+                <img style="width: 100%;" src="src/images/section3img.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Count  -->
+    <div class="container count my-5">
+        <div class="row gap-5">
+            <div class="box col-xl-3 col-xxl-3 col-lg-3 col-md-4 col-sm-8 col-10 rounded-4">
+                <div>
+                    <img src="src/images/happy.png" alt="">
+                    <h3 class="fw-bold">1024</h3>
+                    <h5>Happy Travellers</h5>
+                </div>
+            </div>
+            <div class="box col-xl-3 col-xxl-3 col-lg-3 col-md-4 col-sm-8 col-10  rounded-4">
+                <div>
+                    <img src="src/images/experience.png" alt="">
+                    <h3 class="fw-bold">100%</h3>
+                    <h5>Total Positive Reviews</h5>
+                </div>
+            </div>
+            <div class="box col-xl-3 col-xxl-3 col-lg-3 col-md-4 col-sm-8 col-10  rounded-4">
+                <div>
+                    <img src="src/images/complete.png" alt="">
+                    <h3 class="fw-bold">150</h3>
+                    <h5>Tour Complete</h5>
+                </div>
+            </div>
+            <div class="box col-xl-3 col-xxl-3 col-lg-3 col-md-4 col-sm-8 col-10  rounded-4">
+                <div>
+                    <img src="src/images/winning.png" alt="">
+                    <h3 class="fw-bold">3900</h3>
+                    <h5>Award Winning</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Company values  -->
+    <div >
+        <div class="row justify-content-center align-items-center container mx-auto mb-5">
+            <div class="col-11  col-md-8 col-sm-9 col-lg-6 col-xl-6">
+                <img style="width: 80%;" src="src/images/sectionimg6 (1).png" alt="">
+            </div>
+            <div class="col-11 col-md-8 col-sm-9 col-lg-6 col-xl-6">
+                <h5 style="color: var(--primary-color) ; font-family: 'Dancing Script', cursive;" class="fw-bold">
+                    Explore the World
+                </h5>
+                <h2 class="fw-bold my-4 subhaedingh2 ">Our Core Values: Guiding Every Journey</h2>
+                <p>At our core, we believe that travel is more than just visiting new places—it's about creating
+                    meaningful experiences. Our values shape every decision we make, ensuring that we deliver
+                    exceptional service and unforgettable adventures to every traveler</p>
+
+                <div class="row">
+                    <div class="col">
+                        <img class="my-2" style="width: 50px;" src="src/images/trust (2).png" alt="">
+                        <h4>Customer-Centered</h4>
+                        <p>We focus on creating personalized journeys for each traveler.</p>
+                    </div>
+                    <div class="col">
+                        <img class="my-2" style="width: 50px;" src="src/images/personalized.png" alt="">
+                        <h4>Sustainability</h4>
+                        <p>We promote eco-friendly practices to protect our destinations.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <img class="my-2" style="width: 50px;" src="src/images/trust (2).png" alt="">
+                        <h4>Integrity & Trust</h4>
+                        <p> We build relationships with honest, transparent service.</p>
+                    </div>
+                    <div class="col">
+                        <img class="my-2" style="width: 50px;" src="src/images/personalized.png" alt="">
+                        <h4>Excellence in Service</h4>
+                        <p> We ensure top-quality service from planning to your final destination.</p>
+                    </div>
+                </div>
+            </div>
+</div> 
+
+         <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted container-fluid">
+
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span><b>Get connected with us on social networks:</b></span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.google.com/" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/login" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/login" target="_blank" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                            <i class="fas fa-gem me-3"></i>Travel Smart
+                        </h6>
+                        <p>
+                            Elevate your travel experience with Travel Smart! This guide provides expert tips for
+                            efficient planning, budget-saving strategies, and discovering hidden gems. Whether you're a
+                            seasoned explorer or a first-time traveler, Travel Smart helps you navigate the globe
+                            confidently and make the most of every adventure. Get ready to travel smarter, not harder!
+                        </p>
+                    </div>
+
+                    <div class="col-md-2  col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                            Links
+                        </h6>
+                        <p class="footer-hover">
+                            <a href="About us.html" class="text-reset" style="text-decoration: none;">About</a>
+                        </p>
+                        <p class="footer-hover">
+                            <a href="#" class="text-reset" style="text-decoration: none;">Trip Catalog</a>
+                        </p>
+                        <p class="footer-hover">
+                            <a href="contact.html" class="text-reset" style="text-decoration: none;">Contact Us</a>
+                        </p>
+                        <p class="footer-hover">
+                            <a href="tour-review.html" class="text-reset" style="text-decoration: none;">Tour Reviews</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                            Quick links
+                        </h6>
+                        <p class="footer-hover">
+                            <a href="trip.html" class="text-reset" style="text-decoration: none;">Book A Trip</a>
+                        </p>
+                        <p class="footer-hover">
+                            <a href="Activity.html" class="text-reset" style="text-decoration: none;">Activities</a>
+                        </p>
+                        <p class="footer-hover">
+                            <a href="accomodation.html" class="text-reset" style="text-decoration: none;">Accomodation</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4 footer-links">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i>Aptech North Nazimabad Karachi </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            travelmart@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>+ 01 23 45 67 89 20</p>
+                        <p><i class="fas fa-print me-3"></i>+ 01 32 54 78 98 30</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="color: white; background-color: #0190f6;">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="Index.html">Travel Smart</a>
+        </div>
+
+    </footer>
+    <!-- Footer -->     
+</body>
+
+</html>

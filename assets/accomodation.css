@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.facilities .card {
+
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #f2f2f2,
+        -20px -20px 60px #ffffff;
+    border: none;
+    margin: 20px;
+}
+
+/* ----------------- FAQS CSS --------------- */
+  /* FAQs Styling  */
+
+
+  .accordion-button {
+    background-color: white!important;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(181, 212, 6, 0.1) !important;
+    color: #333 !important;
+}
+
+.accordion-button:not(.collapsed):focus {
+    background-color: #d6e5f5 !important;
+    font-weight: 600;
+    border-color: #f0f0f0;
+    /* border: 1px solid var(--primary-color); */
+
+}
+
+.accordion-button.collapsed {
+    background-color: #d6e5f5;
+    border: 1px solid rgb(244, 244, 244);
+    color: #333 !important;
+}
+
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ddd;
+    background-color: #d6e5f5!important;
+    border-color: #ddd;
+}
+
+/* ---------- HOTEL INFO CSS ----------- */
+.hotel-info-container {
+    background-color: #e6e2e2de; /* White background for the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+}
+.hotel-info-col {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    border: 1px solid #dee2e6; /* Border around each column */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fdfdfd; /* Slightly off-white for contrast */
+}
+.hotel-info-col:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+h2 {
+    color: #343a40; /* Dark text color for the heading */
+}
+h5 {
+    color: #007bff; /* Bootstrap primary color for subheadings */
+}
+
+
+/* SCROLLING CSS */
+.scrolling-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.scrolling-container .scrolling-content {
+    white-space: nowrap;
+    animation: scrolling-animation 20s linear infinite;
+}
+
+@keyframes scrolling-animation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 20px));
+        /* Adjust as needed */
+    }
+}
+
+/* Optional: Style the images */
+.scrolling-container .scrolling-image {
+    display: inline-block;
+    margin-right: 20px;
+    /* Adjust as needed */
+    max-width: 250px;
+    /* Adjust as needed */
+    max-height: 125px;
+    /* Adjust as needed */
+}
+
+@media only screen and (max-width:1000px) {
+    .scrolling-container .scrolling-image {
+        max-width: 180px;
+
+        max-height: 90px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .scrolling-container .scrolling-image {
+        max-width: 150px;
+        /* Adjust as needed */
+        max-height: 75px;
+    }
+}
+
+

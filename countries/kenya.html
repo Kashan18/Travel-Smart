@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #ff8800;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #0190f6;
+        border-radius: 50px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #29a2f8;
+      }
+
+      ::placeholder {
+        color: whitesmoke;
+      }
+
+      /* button css */
+      .book-button {
+            background-color: #f9b008;
+            color: white;
+            border: none;
+            border-radius: 20px; 
+            padding: 16px 25px; 
+            font-size: 16px; 
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+        }
+        .book-button a {
+            color: white; 
+            text-decoration: none; 
+        }
+        .book-button:hover {
+            background-color: #e0a006; /* Darker shade on hover */
+            transform: scale(1.05); 
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+<header class="header ">
+  <div  class="container-NAV">
+    <div  class="header-main">
+      <div class="logo">
+        <a href="../index.html">
+          <img style="width: 30%;" src="../src/images/logo1.png" alt="">
+        </a>
+      </div>
+      <div class="open-nav-menu">
+        <span></span>
+      </div>
+      <div class="menu-overlay"></div>
+      <nav class="nav-menu">
+        <div class="close-nav-menu">
+          <img src="../src/icons (svg)/close.svg" alt="close" />
+        </div>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="../About us.html us.html">About</a>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#" data-toggle="sub-menu"
+              >Tour <i class="plus"></i
+            ></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../trip.html">Book Your Trip</a></li>
+              <li class="menu-item"><a href="../Activity.html">Activities</a></li>
+              <li class="menu-item"><a href="../accomodation.html">Accomodation</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="../contact.html">Contact</a>
+          </li>
+          <li class="menu-item">
+            <a href="../tour-review.html">Tour Review</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <!-- INFORMATION -->
+<div class="container">
+    <h1 class="text-left font-weight-bold">Discover the Wonders of Kenya</h1>
+    <p class="text-left">Kenya, a land of breathtaking landscapes and vibrant cultures, is a must-visit destination for travelers seeking adventure and beauty. Here are several compelling reasons to explore this extraordinary country: <br>
+      From the majestic savannahs of the Maasai Mara to the stunning beaches along the Indian Ocean, Kenya offers diverse experiences for every traveler. The Maasai Mara National Reserve is renowned for its incredible wildlife, including the Big Five—lions, elephants, buffalo, leopards, and rhinoceroses. Visitors can witness the Great Migration, one of nature's most spectacular events. The vibrant culture of the Maasai people adds to the charm of the region, offering unique opportunities to engage with local traditions. Explore the bustling markets of Nairobi and savor traditional Kenyan cuisine, known for its delicious flavors. With stunning landscapes, rich history, and warm hospitality, Kenya promises an unforgettable adventure. Don't miss the chance to hike Mount Kenya, a UNESCO World Heritage site, or relax on the pristine beaches of Diani. Whether you're on a safari or enjoying the vibrant city life, Kenya is a destination that captures the heart.</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="filter-Images/Africa/kenya.jpg" class="img-fluid" alt="Description of image 1">
+            </div>
+            <div class="col-md-6">
+                <img src="filter-Images/Africa/kenya2.jpeg" class="img-fluid" alt="Description of image 2">
+            </div>
+        </div>
+    </div>
+    
+  <!-- button -->
+  <a href="add to cart page.html"> <button class="book-button mt-4 mb-4"> Book a trip</button></a>
+
+    <h5>1. Rich Wildlife Heritage</h5>
+    <p>
+        <strong style="color: #0190f6;">Maasai Mara National Reserve:</strong> Famous for its abundant wildlife and the Great Migration, where millions of wildebeest and zebras traverse the plains.<br>
+        <strong style="color: #0190f6;">Amboseli National Park:</strong> Offers stunning views of Mount Kilimanjaro and close encounters with elephants.
+    </p>
+
+    <h5>2. Vibrant Culture</h5>
+    <p>
+        <strong style="color: #0190f6;">Local Communities:</strong> Engage with the Maasai and Samburu tribes to learn about their traditions and lifestyle.<br>
+        <strong style="color: #0190f6;">Culinary Delights:</strong> Sample dishes like ugali and nyama choma, which are staples of Kenyan cuisine.
+    </p>
+
+    <h5>3. Stunning Natural Landscapes</h5>
+    <p>
+        <strong style="color: #0190f6;">Great Rift Valley:</strong> A breathtaking region known for its lakes, volcanoes, and dramatic scenery.<br>
+        <strong style="color: #0190f6;">Lake Nakuru:</strong> Famous for its flamingo populations and diverse birdlife.
+    </p>
+
+    <h5>4. Unique Experiences</h5>
+    <p>
+        <strong style="color: #0190f6;">Safari Adventures:</strong> Explore diverse ecosystems, from savannahs to forests, in search of wildlife.<br>
+        <strong style="color: #0190f6;">Hot Air Balloon Safaris:</strong> Experience breathtaking views of the landscape at sunrise.
+    </p>
+
+    <h5>5. Architectural Marvels</h5>
+    <p>
+        <strong style="color: #0190f6;">Karen Blixen Museum:</strong> Once the home of the author of "Out of Africa," showcasing colonial architecture.<br>
+        <strong style="color: #0190f6;">Nairobi National Museum:</strong> Explore Kenya's rich history and cultural heritage.
+    </p>
+
+    <h5>6. Warm Hospitality</h5>
+    <p>
+        Kenyans are known for their friendly nature, providing a warm and enriching travel experience.
+    </p>
+
+    <h5>7. Cultural Events and Festivals</h5>
+    <p>
+        Experience local celebrations, such as the Maasai Mara Cultural Festival, where the culture comes alive with music and dance.
+    </p>
+
+    <h6>Conclusion</h6>
+    <p>Kenya promises memories that will last a lifetime. It's a place where every corner tells a story, waiting to be discovered by you.</p>
+</div>
+
+      
+
+       <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted container-fluid">
+
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+              <span><b>Get connected with us on social networks:</b></span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+              <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/login" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/login" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
+          <!-- Right -->
+      </section>
+
+      <section class="">
+          <div class="container text-center text-md-start mt-5">
+
+              <div class="row mt-3">
+
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          <i class="fas fa-gem me-3"></i>Travel Smart
+                      </h6>
+                      <p>
+                          Elevate your travel experience with Travel Smart! This guide provides expert tips for
+                          efficient planning, budget-saving strategies, and discovering hidden gems. Whether you're a
+                          seasoned explorer or a first-time traveler, Travel Smart helps you navigate the globe
+                          confidently and make the most of every adventure. Get ready to travel smarter, not harder!
+                      </p>
+                  </div>
+
+                  <div class="col-md-2  col-lg-2 col-xl-2 mx-auto mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          Links
+                      </h6>
+                      <p class="footer-hover">
+                          <a href="About us.html" class="text-reset" style="text-decoration: none;">About</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="#" class="text-reset" style="text-decoration: none;">Trip Catalog</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="contact.html" class="text-reset" style="text-decoration: none;">Contact Us</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="tour-review.html" class="text-reset" style="text-decoration: none;">Tour Reviews</a>
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          Quick links
+                      </h6>
+                      <p class="footer-hover">
+                          <a href="trip.html" class="text-reset" style="text-decoration: none;">Book A Trip</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="Activity.html" class="text-reset" style="text-decoration: none;">Activities</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="accomodation.html" class="text-reset" style="text-decoration: none;">Accomodation</a>
+                      </p>
+                  </div>
+
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">Contact</h6>
+                      <p><i class="fas fa-home me-3"></i>Aptech North Nazimabad Karachi </p>
+                      <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          travelmart@gmail.com
+                      </p>
+                      <p><i class="fas fa-phone me-3"></i>+ 01 23 45 67 89 20</p>
+                      <p><i class="fas fa-print me-3"></i>+ 01 32 54 78 98 30</p>
+                  </div>
+
+              </div>
+
+          </div>
+      </section>
+
+      <div class="text-center p-4" style="color: white; background-color: #0190f6;">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="Index.html">Travel Smart</a>
+      </div>
+
+  </footer>
+  <!-- Footer --> 
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

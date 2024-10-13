@@ -1,0 +1,136 @@
+/* body{
+    min-height: 100vh;
+    font-family: monospace;
+    background-image: 
+        linear-gradient( 
+            to bottom right, #EFD7F4, #c5c7f1);
+    margin: 0;
+} */
+.container-book{
+    background-color: #0190f6;
+    width: 90%;
+    max-width:  100%;
+    margin: 50px auto 0;
+    border-radius: 10px;
+}
+.filter{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter .item{
+    background-color: #fff;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px dashed #ff9900; */
+
+}
+.filter .item select,
+.filter .item input,
+.filter .item button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    border-left: 1px solid #ddd;
+    outline: none;
+}
+.filter .item input,
+.filter .item select{
+    width: 300px;
+}
+.container-book form{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+
+/* .filter .item select,
+.filter .item button {
+    cursor: pointer;
+}
+
+.filter .item button{
+    width: 15%;
+    padding: 20px;
+    border: 2px solid #0190f6;
+    font-size: 1.5rem;
+}
+
+
+.filter .item input{
+    cursor: text;
+} */
+.filter .item label{
+    display: block;
+    width: 40%;
+    padding: 0 10px;
+}
+.filter .item.submit button{
+    background-color: #ff9900;
+    color: #fff;
+}
+.countResults{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+#list{
+    padding: 20px;
+    display: grid;
+    column-gap: 1%;
+    grid-template-columns: repeat(auto-fill, 380px);
+    row-gap: 10px;
+}
+
+#list .item img{
+    width: 90%;
+    height:300px;
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+#list .item{
+    background-color: #fff5;
+    text-align: center;
+    border-radius: 10px;
+}
+#list .item .title{
+    font-weight: bold;
+}
+#list .item .price{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* EGYPT CSS  */
+
+.egypt1{
+    width: 80%;
+}
+
+.egypt1 .heading h1{
+    font-size: 5cqmax;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.egypt1 .image{
+    width: 100%;
+    height: 400px;
+    background: url(filter-Images/Africa/egypt.jpg);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.egypt1 .description{
+    font-size: 1.5cqmax;
+    margin-left: 10px;
+}

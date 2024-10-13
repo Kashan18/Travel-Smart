@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #ff8800;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #0190f6;
+        border-radius: 50px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #29a2f8;
+      }
+
+      ::placeholder {
+        color: whitesmoke;
+      }
+
+      /* button css */
+      .book-button {
+            background-color: #f9b008;
+            color: white;
+            border: none;
+            border-radius: 20px; 
+            padding: 16px 25px; 
+            font-size: 16px; 
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+        }
+        .book-button a {
+            color: white; 
+            text-decoration: none; 
+        }
+        .book-button:hover {
+            background-color: #e0a006; /* Darker shade on hover */
+            transform: scale(1.05); 
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+<header class="header ">
+  <div  class="container-NAV">
+    <div  class="header-main">
+      <div class="logo">
+        <a href="../index.html">
+          <img style="width: 30%;" src="../src/images/logo1.png" alt="">
+        </a>
+      </div>
+      <div class="open-nav-menu">
+        <span></span>
+      </div>
+      <div class="menu-overlay"></div>
+      <nav class="nav-menu">
+        <div class="close-nav-menu">
+          <img src="../src/icons (svg)/close.svg" alt="close" />
+        </div>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="../About us.html us.html">About</a>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#" data-toggle="sub-menu"
+              >Tour <i class="plus"></i
+            ></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../trip.html">Book Your Trip</a></li>
+              <li class="menu-item"><a href="../Activity.html">Activities</a></li>
+              <li class="menu-item"><a href="../accomodation.html">Accomodation</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="../contact.html">Contact</a>
+          </li>
+          <li class="menu-item">
+            <a href="../tour-review.html">Tour Review</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <!-- INFORMATION -->
+<!-- INFORMATION -->
+<div class="container">
+    <h1 class="text-left font-weight-bold">Explore the Charm of France</h1>
+    <p class="text-left">France, a country known for its rich history, stunning architecture, and delectable cuisine, is a must-visit destination. Here are several compelling reasons to visit this enchanting country: <br>
+        France offers a perfect blend of cultural experiences and picturesque landscapes. From the iconic Eiffel Tower in Paris to the serene vineyards of Bordeaux, each region has its unique charm. Indulge in world-class cuisine, from flaky croissants to exquisite wines. Explore the art and history housed in the Louvre, and wander through the cobbled streets of Montmartre. The French Riviera promises sun-soaked beaches and glamorous resorts, while the countryside invites you to discover charming villages and rolling hills. Experience vibrant festivals and the warmth of French hospitality, where locals take pride in their culture. Whether you’re a history buff, a foodie, or an adventure seeker, France has something for everyone. Discover the romance of this timeless destination!</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="filter-Images/Europe/france.jpg" class="img-fluid" alt="Paris">
+            </div>
+            <div class="col-md-6">
+                <img src="filter-Images/Europe/france2.jpg" class="img-fluid" alt="French Countryside">
+            </div>
+        </div>
+    </div>
+
+<!-- button -->
+<a href="add to cart page.html"> <button class="book-button mt-4 mb-4"> Book a trip</button></a>
+
+    <h5>1. Iconic Landmarks</h5>
+    <p>
+        <strong style="color: #0190f6;">Eiffel Tower:</strong> This iconic symbol of France offers breathtaking views of Paris.<br>
+        <strong style="color: #0190f6;">Palace of Versailles:</strong> A UNESCO World Heritage site, known for its opulent architecture and stunning gardens.
+    </p>
+
+    <h5>2. Culinary Excellence</h5>
+    <p>
+        <strong style="color: #0190f6;">French Cuisine:</strong> Savor the delights of croissants, escargot, and gourmet cheeses.<br>
+        <strong style="color: #0190f6;">Wine Regions:</strong> Explore Bordeaux and Burgundy, famous for their exquisite wines.
+    </p>
+
+    <h5>3. Rich Cultural Experiences</h5>
+    <p>
+        <strong style="color: #0190f6;">Museums:</strong> Visit the Louvre and Musée d'Orsay to admire world-renowned art collections.<br>
+        <strong style="color: #0190f6;">Theatre and Festivals:</strong> Enjoy performances and festivals that celebrate French culture and arts.
+    </p>
+
+    <h5>4. Beautiful Landscapes</h5>
+    <p>
+        <strong style="color: #0190f6;">The French Riviera:</strong> Experience glamorous beaches and azure waters.<br>
+        <strong style="color: #0190f6;">Provence:</strong> Known for its lavender fields and picturesque villages.
+    </p>
+
+    <h5>5. Historical Significance</h5>
+    <p>
+        <strong style="color: #0190f6;">Normandy:</strong> Visit historical sites like the D-Day beaches and Mont Saint-Michel.<br>
+        <strong style="color: #0190f6;">Parisian History:</strong> Explore the rich history of the French capital, from the Revolution to modern times.
+    </p>
+
+    <h5>6. Vibrant City Life</h5>
+    <p>
+        The bustling streets of Paris offer countless cafés, shops, and cultural experiences waiting to be explored.
+    </p>
+
+    <h5>7. Stunning Architecture</h5>
+    <p>
+        Discover the intricate designs of Gothic cathedrals, quaint village homes, and modern structures throughout the country.
+    </p>
+
+    <h6>Conclusion</h6>
+    <p>France is a treasure trove of experiences that promise to leave visitors enchanted. From its historical landmarks to its culinary delights, every moment spent in France is a moment to cherish.</p>
+</div>
+
+    
+  
+   
+      
+
+       <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted container-fluid">
+
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+              <span><b>Get connected with us on social networks:</b></span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+              <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/login" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/login" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
+          <!-- Right -->
+      </section>
+
+      <section class="">
+          <div class="container text-center text-md-start mt-5">
+
+              <div class="row mt-3">
+
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          <i class="fas fa-gem me-3"></i>Travel Smart
+                      </h6>
+                      <p>
+                          Elevate your travel experience with Travel Smart! This guide provides expert tips for
+                          efficient planning, budget-saving strategies, and discovering hidden gems. Whether you're a
+                          seasoned explorer or a first-time traveler, Travel Smart helps you navigate the globe
+                          confidently and make the most of every adventure. Get ready to travel smarter, not harder!
+                      </p>
+                  </div>
+
+                  <div class="col-md-2  col-lg-2 col-xl-2 mx-auto mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          Links
+                      </h6>
+                      <p class="footer-hover">
+                          <a href="About us.html" class="text-reset" style="text-decoration: none;">About</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="#" class="text-reset" style="text-decoration: none;">Trip Catalog</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="contact.html" class="text-reset" style="text-decoration: none;">Contact Us</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="tour-review.html" class="text-reset" style="text-decoration: none;">Tour Reviews</a>
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          Quick links
+                      </h6>
+                      <p class="footer-hover">
+                          <a href="trip.html" class="text-reset" style="text-decoration: none;">Book A Trip</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="Activity.html" class="text-reset" style="text-decoration: none;">Activities</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="accomodation.html" class="text-reset" style="text-decoration: none;">Accomodation</a>
+                      </p>
+                  </div>
+
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">Contact</h6>
+                      <p><i class="fas fa-home me-3"></i>Aptech North Nazimabad Karachi </p>
+                      <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          travelmart@gmail.com
+                      </p>
+                      <p><i class="fas fa-phone me-3"></i>+ 01 23 45 67 89 20</p>
+                      <p><i class="fas fa-print me-3"></i>+ 01 32 54 78 98 30</p>
+                  </div>
+
+              </div>
+
+          </div>
+      </section>
+
+      <div class="text-center p-4" style="color: white; background-color: #0190f6;">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="Index.html">Travel Smart</a>
+      </div>
+
+  </footer>
+  <!-- Footer --> 
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

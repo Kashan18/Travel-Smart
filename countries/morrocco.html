@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="src/images/logo1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #ff8800;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #0190f6;
+        border-radius: 50px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #29a2f8;
+      }
+
+      ::placeholder {
+        color: whitesmoke;
+      }
+
+      /* button css */
+      .book-button {
+            background-color: #f9b008;
+            color: white;
+            border: none;
+            border-radius: 20px; 
+            padding: 16px 25px; 
+            font-size: 16px; 
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+        }
+        .book-button a {
+            color: white; 
+            text-decoration: none; 
+        }
+        .book-button:hover {
+            background-color: #e0a006; /* Darker shade on hover */
+            transform: scale(1.05); 
+        }
+    </style>
+  </head>
+  <body>
+   <!-- Navbar  -->
+<header class="header ">
+  <div  class="container-NAV">
+    <div  class="header-main">
+      <div class="logo">
+        <a href="../index.html">
+          <img style="width: 30%;" src="../src/images/logo1.png" alt="">
+        </a>
+      </div>
+      <div class="open-nav-menu">
+        <span></span>
+      </div>
+      <div class="menu-overlay"></div>
+      <nav class="nav-menu">
+        <div class="close-nav-menu">
+          <img src="../src/icons (svg)/close.svg" alt="close" />
+        </div>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="../About us.html us.html">About</a>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#" data-toggle="sub-menu"
+              >Tour <i class="plus"></i
+            ></a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="../trip.html">Book Your Trip</a></li>
+              <li class="menu-item"><a href="../Activity.html">Activities</a></li>
+              <li class="menu-item"><a href="../accomodation.html">Accomodation</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="../contact.html">Contact</a>
+          </li>
+          <li class="menu-item">
+            <a href="../tour-review.html">Tour Review</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <!-- INFORMATION -->
+<!-- INFORMATION -->
+<div class="container">
+    <h1 class="text-left font-weight-bold">Discover the Wonders of Morocco</h1>
+    <p class="text-left">Morocco, a vibrant blend of culture, history, and stunning landscapes, is a destination that captivates every traveler. Here are several compelling reasons to explore this extraordinary country: <br>
+      From the bustling markets of Marrakech to the serene Sahara Desert, Morocco offers a unique tapestry of experiences. The enchanting blue streets of Chefchaouen provide a picturesque backdrop, while the majestic Atlas Mountains invite adventure seekers for hiking and exploration. Discover the ancient medinas filled with intricate architecture and vibrant souks where artisans showcase their crafts. Indulge in flavorful Moroccan cuisine, known for its rich spices and traditional dishes like tagine and couscous. The coastal city of Essaouira boasts stunning beaches and a relaxed atmosphere, perfect for unwinding. Don't miss the chance to experience the warmth of Moroccan hospitality, where locals are eager to share their culture and traditions. Whether exploring the historic sites of Fes or enjoying a sunset camel ride in the desert, Morocco promises a journey filled with unforgettable moments.</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="filter-Images/Africa/morocco.jpg" class="img-fluid" alt="Description of image 1">
+            </div>
+            <div class="col-md-6">
+                <img src="filter-Images/Africa/morrocco2.jpeg" class="img-fluid" alt="Description of image 2">
+            </div>
+        </div>
+    </div>
+    
+  <!-- button -->
+  <a href="add to cart page.html"> <button class="book-button mt-4 mb-4"> Book a trip</button></a>
+
+    <h5>1. Rich Cultural Heritage</h5>
+    <p>
+        <strong style="color: #0190f6;">Marrakech:</strong> Known for its vibrant souks and historic palaces, Marrakech is a city that showcases Morocco's rich history.<br>
+        <strong style="color: #0190f6;">Fes:</strong> Home to one of the world's oldest universities and a maze of narrow streets filled with artisans.
+    </p>
+
+    <h5>2. Stunning Natural Landscapes</h5>
+    <p>
+        <strong style="color: #0190f6;">Sahara Desert:</strong> Experience the vastness of the desert with camel treks and breathtaking sunsets.<br>
+        <strong style="color: #0190f6;">Atlas Mountains:</strong> A paradise for hikers and adventure lovers, offering stunning views and diverse wildlife.
+    </p>
+
+    <h5>3. Unique Experiences</h5>
+    <p>
+        <strong style="color: #0190f6;">Cultural Tours:</strong> Engage with local Berber communities and learn about their traditions.<br>
+        <strong style="color: #0190f6;">Cooking Classes:</strong> Learn to prepare traditional Moroccan dishes in a hands-on culinary experience.
+    </p>
+
+    <h5>4. Architectural Marvels</h5>
+    <p>
+        <strong style="color: #0190f6;">Hassan II Mosque:</strong> An architectural masterpiece located in Casablanca, it's one of the largest mosques in the world.<br>
+        <strong style="color: #0190f6;">Ait Ben Haddou:</strong> A UNESCO World Heritage site, this ancient kasbah is famous for its stunning earthen clay architecture.
+    </p>
+
+    <h5>5. Vibrant Markets</h5>
+    <p>
+        <strong style="color: #0190f6;">Souks of Marrakech:</strong> Explore the bustling markets filled with spices, textiles, and handcrafted goods.<br>
+        <strong style="color: #0190f6;">Artisan Workshops:</strong> Discover local craftsmanship through pottery, leather, and carpet-making workshops.
+    </p>
+
+    <h5>6. Warm Hospitality</h5>
+    <p>
+        Moroccans are known for their welcoming nature, offering a rich and enriching travel experience.
+    </p>
+
+    <h5>7. Cultural Events and Festivals</h5>
+    <p>
+        Experience local celebrations, such as the Marrakech Popular Arts Festival, showcasing music, dance, and traditional performances.
+    </p>
+
+    <h6>Conclusion</h6>
+    <p>Morocco promises memories that will last a lifetime. It's a place where every corner tells a story, waiting to be discovered by you.</p>
+</div>
+
+      
+
+      <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted container-fluid">
+
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+              <span><b>Get connected with us on social networks:</b></span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+              <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/login" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/login" target="_blank" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
+          <!-- Right -->
+      </section>
+
+      <section class="">
+          <div class="container text-center text-md-start mt-5">
+
+              <div class="row mt-3">
+
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          <i class="fas fa-gem me-3"></i>Travel Smart
+                      </h6>
+                      <p>
+                          Elevate your travel experience with Travel Smart! This guide provides expert tips for
+                          efficient planning, budget-saving strategies, and discovering hidden gems. Whether you're a
+                          seasoned explorer or a first-time traveler, Travel Smart helps you navigate the globe
+                          confidently and make the most of every adventure. Get ready to travel smarter, not harder!
+                      </p>
+                  </div>
+
+                  <div class="col-md-2  col-lg-2 col-xl-2 mx-auto mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          Links
+                      </h6>
+                      <p class="footer-hover">
+                          <a href="About us.html" class="text-reset" style="text-decoration: none;">About</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="#" class="text-reset" style="text-decoration: none;">Trip Catalog</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="contact.html" class="text-reset" style="text-decoration: none;">Contact Us</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="tour-review.html" class="text-reset" style="text-decoration: none;">Tour Reviews</a>
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">
+                          Quick links
+                      </h6>
+                      <p class="footer-hover">
+                          <a href="trip.html" class="text-reset" style="text-decoration: none;">Book A Trip</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="Activity.html" class="text-reset" style="text-decoration: none;">Activities</a>
+                      </p>
+                      <p class="footer-hover">
+                          <a href="accomodation.html" class="text-reset" style="text-decoration: none;">Accomodation</a>
+                      </p>
+                  </div>
+
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                      <h6 class="text-uppercase fw-bold mb-4 footer-links">Contact</h6>
+                      <p><i class="fas fa-home me-3"></i>Aptech North Nazimabad Karachi </p>
+                      <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          travelmart@gmail.com
+                      </p>
+                      <p><i class="fas fa-phone me-3"></i>+ 01 23 45 67 89 20</p>
+                      <p><i class="fas fa-print me-3"></i>+ 01 32 54 78 98 30</p>
+                  </div>
+
+              </div>
+
+          </div>
+      </section>
+
+      <div class="text-center p-4" style="color: white; background-color: #0190f6;">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="Index.html">Travel Smart</a>
+      </div>
+
+  </footer>
+  <!-- Footer --> 
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
